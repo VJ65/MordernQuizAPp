@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="@string/quiz_app"
+            android:textColor="@color/colorAccent"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_email"
+        android:textColorHint="@android:color/darker_gray"
+        android:maxLength="33"
+        android:id="@+id/studentEmailET"
+        android:autofillHints="email" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="@string/enter_password"
+        android:textColorHint="@android:color/darker_gray"
+        android:maxLength="33"
+        android:id="@+id/studentPasswordET"
+        android:autofillHints="Password" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round"
+        android:text="@string/start_quiz"
+        android:textColor="@color/colorAccent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="437dp" />
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round"
+        android:text="@string/register"
+        android:textColor="@color/colorAccent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="437dp" />
+    <ProgressBar
+        android:id="@+id/ProgressBar1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/progress_bar"
+        android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+        android:outlineSpotShadowColor="@color/colorPrimaryDark"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

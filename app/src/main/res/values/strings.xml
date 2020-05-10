@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">guizapp</string>
+    <string name="sets">SETS</string>
+    <string name="register">Register</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="quiz_app">QUIZ APP</string>
+    <string name="enter_password">Enter Password</string>
+</resources>
